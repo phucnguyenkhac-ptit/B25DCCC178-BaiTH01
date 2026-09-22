@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nguyễn Khắc Phúc - Trang cá nhân</title>
+<meta name="description" content="Trang cá nhân của Nguyễn Khắc Phúc, sinh viên năm 2 Học viện Công nghệ Bưu chính Viễn thông — nơi ghi lại quá trình tự học làm web trên con đường trở thành Business Analyst.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Work+Sans:wght@400;500;600&family=Caveat:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="head">
+  <a class="logo" href="#gioi-thieu">Nguyễn Khắc Phúc<span class="logo-dot">.</span></a>
+
+  <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="nav" aria-label="Mở menu">
+    <i></i><i></i><i></i>
+  </button>
+
+  <nav class="nav" id="nav" aria-label="Điều hướng chính">
+    <a href="#gioi-thieu">Giới thiệu</a>
+    <a href="#ky-nang">Kỹ năng</a>
+    <a href="#du-an">Dự án</a>
+    <a href="#lien-he">Liên hệ</a>
+    <button class="theme-btn" id="theme-toggle" type="button" aria-pressed="false">Nền tối</button>
+  </nav>
+</header>
+
+<div class="progress-track" aria-hidden="true"><div class="progress-bar" id="progress-bar"></div></div>
+
+<main class="page">
+
+  <section class="hero reveal" id="gioi-thieu">
+    <h1>Xin chào, mình là Khắc Phúc.</h1>
+    <p class="lead">Mình là sinh viên năm 2 Học viện Công nghệ Bưu chính Viễn thông, đang tìm hiểu con đường trở thành Business Analyst. Đây là porfolio đầu tiên mình tạo nên — nơi mình ghi lại những gì đã học được trên đường làm quen với HTML, CSS và JavaScript.</p>
+
+      <div class="badges">
+        <span class="badge">Sinh viên năm 2</span>
+        <span class="badge">Học viện CN Bưu chính Viễn thông</span>
+        <span class="badge badge-accent">Định hướng Business Analyst</span>
+      </div>
+
+      <p>Mình vào PTIT với ý định trở thành lập trình viên. Nhưng qua vài bài tập nhóm, mình nhận ra phần mình làm tốt nhất không phải là viết mã, mà là lúc ngồi lại với cả nhóm, hỏi cho ra thứ người dùng thật sự cần rồi vẽ nó thành sơ đồ để ai nhìn cũng hiểu giống nhau.</p>
+      <p>Từ đó mình chuyển hướng sang phân tích nghiệp vụ, nhưng vẫn giữ việc tự học code — vì nó giúp mình nói chuyện được với lập trình viên, và trang này chính là bài tập tự học lớn nhất của mình cho tới giờ.</p>
+  </section>
+
+  <section class="block reveal" id="ky-nang">
+    <h2>Kỹ năng</h2>
+    <p class="note">Đây là nơi mình theo dõi xem bản thân đã học đến đâu — thật lòng mà nói, còn khá nhiều thứ mình vẫn đang tập.</p>
+
+    <div class="track">
+      <h3><span class="dot dot-done"></span>Đã thành thạo</h3>
+      <ul class="checklist">
+        <li>
+          <span class="box box-done" aria-hidden="true">✓</span>
+          <div><b>HTML &amp; CSS cơ bản</b><p>Dựng được bố cục bằng Flexbox và Grid, biết cách làm responsive cho điện thoại và máy tính bảng.</p></div>
+        </li>
+        <li>
+          <span class="box box-done" aria-hidden="true">✓</span>
+          <div><b>Excel cơ bản</b><p>Dùng công thức và PivotTable để tổng hợp, đối chiếu số liệu.</p></div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="track">
+      <h3><span class="dot dot-doing"></span>Đang trong quá trình học tập, cải thiện</h3>
+      <ul class="checklist">
+        <li>
+          <span class="box box-doing" aria-hidden="true">–</span>
+          <div><b>JavaScript</b><p>Xử lý sự kiện, thao tác với DOM, viết logic kiểm tra biểu mẫu.</p></div>
+        </li>
+        <li>
+          <span class="box box-doing" aria-hidden="true">–</span>
+          <div><b>SQL</b><p>Viết truy vấn JOIN, GROUP BY trên dữ liệu mẫu.</p></div>
+        </li>
+        <li>
+          <span class="box box-doing" aria-hidden="true">–</span>
+          <div><b>Vẽ sơ đồ nghiệp vụ</b><p>BPMN và use case bằng Draw.io, để mô tả một quy trình rõ ràng.</p></div>
+        </li>
+        <li>
+          <span class="box box-doing" aria-hidden="true">–</span>
+          <div><b>Wireframe trên Figma</b><p>Dựng bản phác màn hình trước khi bắt tay vào code.</p></div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="track">
+      <h3><span class="dot dot-next"></span>Dự kiến trong tương lai</h3>
+      <ul class="checklist">
+        <li>
+          <span class="box box-next" aria-hidden="true"></span>
+          <div><b>Viết tài liệu yêu cầu chuyên sâu</b><p>Đặc tả use case đầy đủ, tiêu chí chấp nhận rõ ràng hơn.</p></div>
+        </li>
+        <li>
+          <span class="box box-next" aria-hidden="true"></span>
+          <div><b>Công cụ quản lý dự án</b><p>Làm quen với Jira hoặc Trello để theo dõi công việc nhóm.</p></div>
+        </li>
+        <li>
+          <span class="box box-next" aria-hidden="true"></span>
+          <div><b>React</b><p>Để hiểu rõ hơn cách một sản phẩm web thực tế được xây dựng.</p></div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="block reveal" id="du-an">
+    <h2>Dự án</h2>
+    <p class="note">Mấy dự án nhỏ mình làm để luyện tay. Gõ từ khoá hoặc chọn thẻ để lọc danh sách.</p>
+
+    <div class="filters">
+      <input class="search" id="search" type="search" placeholder="Tìm dự án…" aria-label="Tìm dự án">
+      <div class="chips" id="chips" role="group" aria-label="Lọc theo thẻ">
+        <button class="chip" type="button" data-tag="all" aria-pressed="true">Tất cả</button>
+        <button class="chip" type="button" data-tag="web" aria-pressed="false">Web</button>
+        <button class="chip" type="button" data-tag="ba" aria-pressed="false">Nghiệp vụ</button>
+        <button class="chip" type="button" data-tag="data" aria-pressed="false">Dữ liệu</button>
+      </div>
+    </div>
+
+    <ul class="cases" id="projects">
+      <li class="case" data-tags="web ba">
+        <div class="case-head">
+          <h3>Website nhà hàng ẩm thực</h3>
+          <span class="status status-done">Đã hoàn thiện</span>
+        </div>
+        <p>Dự án cá nhân: thực đơn theo nhóm món, trang giới thiệu quán, thư viện ảnh và form đặt bàn. Mình làm từ bản phác màn hình đến mã HTML, CSS, JavaScript.</p>
+        <p class="learned"><b>Bài học rút ra:</b> lần đầu ráp CSS Grid với Flexbox trong cùng một trang, hiểu ra khi nào nên dùng cái nào.</p>
+        <div class="case-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">Wireframe</span></div>
+      </li>
+      <li class="case" data-tags="ba">
+        <div class="case-head">
+          <h3>Phân tích quy trình đặt bàn</h3>
+          <span class="status status-done">Đã hoàn thiện</span>
+        </div>
+        <p>Phần nghiệp vụ tách ra từ dự án nhà hàng: mô tả luồng đặt bàn hiện tại, chỉ ra chỗ dễ sai sót khi nhận đặt qua điện thoại, đề xuất luồng mới bằng BPMN kèm user story.</p>
+        <p class="learned"><b>Bài học rút ra:</b> vẽ BPMN xong mới thấy một quy trình "đơn giản" ngoài đời lại có nhiều trường hợp ngoại lệ hơn mình tưởng.</p>
+        <div class="case-tags"><span class="tag">BPMN</span><span class="tag">User story</span><span class="tag">Use case</span></div>
+      </li>
+      <li class="case" data-tags="data">
+        <div class="case-head">
+          <h3>Báo cáo món bán chạy</h3>
+          <span class="status status-doing">Đang thực hiện</span>
+        </div>
+        <p>Trên dữ liệu đơn hàng mẫu: truy vấn SQL thống kê doanh thu theo món và theo khung giờ, dựng báo cáo Excel gợi ý nên giữ hay bỏ món nào.</p>
+        <p class="learned"><b>Bài học rút ra:</b> đang loay hoay với JOIN nhiều bảng, nhưng bắt đầu thấy SQL lọc dữ liệu lớn dễ hơn Excel nhiều.</p>
+        <div class="case-tags"><span class="tag">SQL</span><span class="tag">Excel</span></div>
+      </li>
+      <li class="case" data-tags="ba">
+        <div class="case-head">
+          <h3>Bài tập nhóm môn Cơ sở dữ liệu</h3>
+          <span class="status status-done">Đã hoàn thiện</span>
+        </div>
+        <p>Vai trò của mình trong nhóm năm người: làm rõ yêu cầu đề bài, vẽ sơ đồ thực thể liên kết, chia việc theo chức năng.</p>
+        <p class="learned"><b>Bài học rút ra:</b> vẽ ERD kỹ ngay từ đầu giúp cả nhóm đỡ phải sửa lại cấu trúc bảng giữa chừng.</p>
+        <div class="case-tags"><span class="tag">ERD</span><span class="tag">Làm việc nhóm</span></div>
+      </li>
+    </ul>
+    <p class="count" id="count"></p>
+  </section>
+
+  <section class="block reveal" id="lien-he">
+    <h2>Liên hệ</h2>
+    <p class="note">Mình mới bắt đầu nhận việc nhỏ và đang tìm cơ hội thực tập, nên rất vui nếu bạn để lại lời nhắn. Mình trả lời trong vòng 24 giờ.</p>
+
+    <form class="form" id="contact" novalidate>
+      <div class="field">
+        <label for="name">Họ và tên</label>
+        <input id="name" name="name" type="text" autocomplete="name">
+        <span class="err" id="err-name"></span>
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" autocomplete="email">
+        <span class="err" id="err-email"></span>
+      </div>
+      <div class="field">
+        <label for="phone">Số điện thoại <span class="hint">không bắt buộc</span></label>
+        <input id="phone" name="phone" type="tel" inputmode="numeric">
+        <span class="err" id="err-phone"></span>
+      </div>
+      <div class="field">
+        <label for="topic">Nội dung trao đổi</label>
+        <select id="topic" name="topic">
+          <option value="">Chọn một mục</option>
+          <option value="thuc-tap">Cơ hội thực tập</option>
+          <option value="du-an">Dự án làm thêm</option>
+          <option value="co-van">Trao đổi, cố vấn nghề</option>
+          <option value="khac">Khác</option>
+        </select>
+        <span class="err" id="err-topic"></span>
+      </div>
+      <div class="field field-wide">
+        <label for="message">Lời nhắn</label>
+        <textarea id="message" name="message" maxlength="400"></textarea>
+        <span class="counter" id="counter">0 / 400</span>
+        <span class="err" id="err-message"></span>
+      </div>
+
+      <div class="form-foot">
+        <button type="submit">Gửi lời nhắn</button>
+        <p class="form-progress" id="progress" aria-live="polite">0 / 4 mục bắt buộc đã điền hợp lệ</p>
+      </div>
+      <p class="form-note" id="note" role="status" aria-live="polite"></p>
+    </form>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <p>© <span id="year"></span> Nguyễn Khắc Phúc · <a href="mailto:nguyenkhacphucptit@gmail.com">nguyenkhacphucptit@gmail.com</a></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
